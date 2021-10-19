@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 04</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <h2>Tarefa 04 - Aula02</h2>
+    <p>Escreva código com JSX, diretamente em uma página HTML, para calcular a média ponderada de três notas</p><br>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        let nota1=7;
+        let nota2=7;
+        let nota3=8;
+        let result;
+
+        result = ((nota1*1)+(nota2*2)+(nota3*3));
+        result = result / (1+2+3);
+
+        const resultado = <h3>O resultado é: {result}</h3>
+        ReactDOM.render(resultado, document.getElementById('root'));
+    </script>
+</body>
+</html>
