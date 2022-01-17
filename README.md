@@ -1,5 +1,4 @@
 # Tarefa 02
-
 1 - Escreva código com JSX,diretamente em uma página HTML,para somar dois números.
 2 - Escreva  código com  JSX,diretamente  em  uma  página  HTML,para  calcular  o  quadrado  de um número.
 3 - Escreva  código com  JSX,diretamente  em  uma  página  HTML,para  calcular  a  média aritmética de três notas.
